@@ -1,0 +1,381 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/* header */
+
+header {
+  background: #4617fe;
+  height: 70vh;
+  padding: 20px 50px;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  padding-right: 3rem;
+  gap: 2rem;
+  color: #ffffff;
+}
+.logo {
+  height: 2rem;
+}
+
+/* text */
+.header-image {
+  position: relative;
+  left: 45rem;
+  bottom: 10rem;
+  height: 76vh;
+  width: 43vw;
+}
+
+.header-text {
+  color: #ffffff;
+  position: relative;
+  top: 6rem;
+}
+
+.header-text h2 {
+  /* position: relative; */
+  font-size: 2rem;
+  font-weight: 900;
+  /* margin-left: 3rem;
+  top: 6rem; */
+}
+
+.header-text p {
+  /* position: relative; */
+  font-size: 1rem;
+  font-weight: 00;
+  /* margin-left: 3rem; */
+  margin-top: 1rem;
+  /* top: 6.5rem; */
+}
+
+/* companies */
+.companies {
+  padding: 2rem 0 0 0rem;
+}
+
+.company-items {
+  margin: 3rem;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Righteous", sans-serif;
+  font-weight: 900;
+}
+
+/* api */
+.api {
+  padding: 0 3rem;
+  margin-top: 5rem;
+}
+
+.api-heading {
+  font-size: 1.8rem;
+}
+
+/* cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1rem 1.5rem;
+}
+
+.card-head {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.card-active {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.04);
+}
+
+.card-head-active {
+  color: #4416fe;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* blog section */
+
+/* .blog-heading {
+  padding: 0 8rem;
+  margin-top: 3rem;
+} */
+
+.blog-heading {
+  margin: 0 8rem;
+  padding: 5rem 0;
+}
+
+.blog-heading {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-heading::after {
+  content: "See All Articles";
+  color: #4416fe;
+  font-size: 1rem;
+}
+
+.blog-heading h1 {
+  font-size: 1.8rem;
+}
+
+.blog-heading {
+  margin-top: -39px;
+  max-width: 79rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.blog-heading h1 {
+  font-size: 2.8rem;
+}
+.blog-cards {
+  max-width: 85rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 24px;
+}
+.blog-card {
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.04);
+  height: 288px;
+}
+.blog-image {
+  display: inline-block;
+}
+.blog-image img {
+  display: inline-block;
+}
+.blog-content {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 90px 0px 50px;
+}
+.blog-content h6 {
+  color: #4617fe;
+  font-weight: 900;
+}
+.blog-content h3 {
+  padding-top: 15px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.blog-content small {
+  font-weight: bold;
+}
+.blog-bottom {
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  left: 320px;
+  bottom: -20px;
+}
+
+div.blog-author {
+  position: absolute;
+  bottom: -20px;
+  left: 390px;
+  bottom: 12px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* FAQ*/
+
+.faq-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e9edff;
+  margin-top: 6rem;
+  padding-right: 7rem;
+}
+
+.faq-content h2 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.faq-content h4 {
+  font-size: 1rem;
+  font-size: 12px;
+}
+
+.faq-content h2 ~ h4:not(:first-of-type) {
+  font-size: 1rem;
+  padding-top: 25px;
+}
+
+.faq-content button {
+  background-color: #5a31fc;
+  border: none;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.faq-image {
+  position: relative;
+  left: 10rem;
+}
+
+/* download */
+
+.download-section {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.download-content {
+  position: relative;
+  left: 3rem;
+}
+
+.download-content h1 {
+  font-size: 2rem;
+}
+
+.download-section .download-content span {
+  font-weight: 200;
+}
+
+.download-section .download-email {
+  position: absolute;
+  right: 0px;
+}
+.download-section .download-email form input {
+  position: relative;
+  left: 5rem;
+  outline: none;
+  border: none;
+  background-color: #e9edff;
+  padding: 15px 170px 15px 40px;
+  border-radius: 50px;
+  width: 550px;
+}
+.download-section .download-email form input::placeholder {
+  font-weight: 600;
+  color: #505050;
+  font-size: 12px;
+}
+.download-section .download-email form button {
+  position: relative;
+  right: 55px;
+  background-color: #4617fe;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+/* footer */
+
+.footer-section {
+  color: #ffffff;
+  /* padding-left: 3rem; */
+  background-color: #481afe;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 90px;
+  align-items: center;
+  height: 200px;
+  margin-top: 7rem;
+}
+.footer-logo {
+  margin-left: -2ren;
+}
+
+.footer-section .footer-left .list {
+  list-style-type: none;
+  display: flex;
+  gap: 39px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 13px;
+  padding-top: 20px;
+  margin-left: -40px;
+}
+.footer-section .footer-left .list .list-items ~ .list-items:not(:last-of-type)::after {
+content: "";
+width: 1px;
+height: 50%;
+margin-left: 20px;
+display: inline-block;
+background-color: #FFFFFF;
+}
+
+.footer-right:first-child {
+text-align: right;
+margin-bottom: 20px;
+}
+.footer-right .footer-logos:not(:last-child) {
+margin-right: 15px;
+
+}
+.footer-right .logos-list {
+list-style-type: none;
+display: flex;
+gap: 20px;
+color: #FFFFFF;
+font-weight: lighter;
+font-size: 13px;
+}
+.footer-right .logos-list .list-items:not(:last-child)::after {
+content: "";
+width: 1px;
+height: 50%;
+margin-left: 20px;
+display: inline-block;
+background-color: #FFFFFF;
+}
+

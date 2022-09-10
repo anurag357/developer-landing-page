@@ -9,10 +9,9 @@
   box-sizing: border-box;
 }
 
-body {
-}
+body {}
 
-/* header */
+/* header======================================= */
 
 header {
   background: #4617fe;
@@ -20,7 +19,7 @@ header {
   padding: 20px 50px;
 }
 
-/* navbar */
+/* navbar======================================= */
 nav {
   display: flex;
   justify-content: end;
@@ -29,11 +28,12 @@ nav {
   gap: 2rem;
   color: #ffffff;
 }
+
 .logo {
   height: 2rem;
 }
 
-/* text */
+/* text========================================== */
 .header-image {
   position: relative;
   left: 45rem;
@@ -49,23 +49,18 @@ nav {
 }
 
 .header-text h2 {
-  /* position: relative; */
   font-size: 2rem;
   font-weight: 900;
-  /* margin-left: 3rem;
-  top: 6rem; */
+  top: 6rem; 
 }
 
 .header-text p {
-  /* position: relative; */
   font-size: 1rem;
   font-weight: 00;
-  /* margin-left: 3rem; */
   margin-top: 1rem;
-  /* top: 6.5rem; */
 }
 
-/* companies */
+/* companies======================================= */
 .companies {
   padding: 2rem 0 0 0rem;
 }
@@ -79,7 +74,7 @@ nav {
   font-weight: 900;
 }
 
-/* api */
+/* api============================================= */
 .api {
   padding: 0 3rem;
   margin-top: 5rem;
@@ -89,7 +84,7 @@ nav {
   font-size: 1.8rem;
 }
 
-/* cards */
+/* cards============================================ */
 .cards {
   display: flex;
   justify-content: space-between;
@@ -125,13 +120,6 @@ nav {
   font-size: 1.5rem;
 }
 
-/* blog section */
-
-/* .blog-heading {
-  padding: 0 8rem;
-  margin-top: 3rem;
-} */
-
 .blog-heading {
   margin: 0 8rem;
   padding: 5rem 0;
@@ -143,6 +131,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .blog-heading::after {
   content: "See All Articles";
   color: #4416fe;
@@ -164,6 +153,7 @@ nav {
 .blog-heading h1 {
   font-size: 2.8rem;
 }
+
 .blog-cards {
   max-width: 85rem;
   margin-left: auto;
@@ -171,6 +161,7 @@ nav {
   display: flex;
   margin-top: 24px;
 }
+
 .blog-card {
   background-color: #ffffff;
   margin-right: auto;
@@ -183,29 +174,36 @@ nav {
   box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.04);
   height: 288px;
 }
+
 .blog-image {
   display: inline-block;
 }
+
 .blog-image img {
   display: inline-block;
 }
+
 .blog-content {
   display: inline-block;
   vertical-align: top;
   padding: 30px 90px 0px 50px;
 }
+
 .blog-content h6 {
   color: #4617fe;
   font-weight: 900;
 }
+
 .blog-content h3 {
   padding-top: 15px;
   font-weight: 900;
   margin-bottom: 14px;
 }
+
 .blog-content small {
   font-weight: bold;
 }
+
 .blog-bottom {
   position: absolute;
   background-color: #ffffff;
@@ -228,7 +226,7 @@ div.blog-author {
   font-weight: 900;
 }
 
-/* FAQ*/
+/* FAQ============================================*/
 
 .faq-section {
   display: flex;
@@ -249,7 +247,7 @@ div.blog-author {
   font-size: 12px;
 }
 
-.faq-content h2 ~ h4:not(:first-of-type) {
+.faq-content h2~h4:not(:first-of-type) {
   font-size: 1rem;
   padding-top: 25px;
 }
@@ -268,7 +266,7 @@ div.blog-author {
   left: 10rem;
 }
 
-/* download */
+/* download======================================== */
 
 .download-section {
   display: flex;
@@ -293,6 +291,7 @@ div.blog-author {
   position: absolute;
   right: 0px;
 }
+
 .download-section .download-email form input {
   position: relative;
   left: 5rem;
@@ -303,11 +302,13 @@ div.blog-author {
   border-radius: 50px;
   width: 550px;
 }
+
 .download-section .download-email form input::placeholder {
   font-weight: 600;
   color: #505050;
   font-size: 12px;
 }
+
 .download-section .download-email form button {
   position: relative;
   right: 55px;
@@ -318,7 +319,7 @@ div.blog-author {
   border-radius: 50px;
 }
 
-/* footer */
+/* footer================================================= */
 
 .footer-section {
   color: #ffffff;
@@ -331,6 +332,7 @@ div.blog-author {
   height: 200px;
   margin-top: 7rem;
 }
+
 .footer-logo {
   margin-left: -2ren;
 }
@@ -341,41 +343,166 @@ div.blog-author {
   gap: 39px;
   color: #FFFFFF;
   font-weight: lighter;
-  font-size: 13px;
+  font-size: 20px;
   padding-top: 20px;
   margin-left: -40px;
 }
-.footer-section .footer-left .list .list-items ~ .list-items:not(:last-of-type)::after {
-content: "";
-width: 1px;
-height: 50%;
-margin-left: 20px;
-display: inline-block;
-background-color: #FFFFFF;
+
+.footer-section .footer-left .list .list-items~.list-items:not(:last-of-type)::after {
+  content: "";
+  width: 1px;
+  height: 50%;
+  margin-left: 20px;
+  display: inline-block;
+  background-color: #FFFFFF;
 }
 
 .footer-right:first-child {
-text-align: right;
-margin-bottom: 20px;
+  text-align: right;
+  margin-bottom: 20px;
 }
+
 .footer-right .footer-logos:not(:last-child) {
-margin-right: 15px;
+  margin-right: 20px;
 
 }
+
 .footer-right .logos-list {
-list-style-type: none;
-display: flex;
-gap: 20px;
-color: #FFFFFF;
-font-weight: lighter;
-font-size: 13px;
-}
-.footer-right .logos-list .list-items:not(:last-child)::after {
-content: "";
-width: 1px;
-height: 50%;
-margin-left: 20px;
-display: inline-block;
-background-color: #FFFFFF;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
+.footer-right .logos-list .list-items:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 50%;
+  margin-left: 20px;
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 700px) {
+  body {}
+
+  header {
+    height: 150vh;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header-text {
+    margin-left: 10px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .header-text h2 {
+    font-size: 22px;
+  }
+
+  .header-image {
+    position: relative;
+    top: 6rem;
+    left: 2rem;
+    margin: auto;
+    height: 60vh;
+    width: 83vw;
+  }
+
+  .company-items {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem;
+    top: 5rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-heading {
+    margin-left: 3.5rem;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .blog-content small {
+    display: inline;
+    position: relative;
+    font-size: 0.5;
+  }
+
+  .faq-content h2 {
+    display: none;
+  }
+
+  .faq-image img {
+    display: none;
+  }
+
+  .download-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .download-content h1 {
+    position: relative;
+    top: 2rem;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+  }
+
+  .download-section .download-email form input {
+    width: 390px;
+    left: 2rem;
+  }
+  .footer-section .footer-left .list {
+    list-style-type: none;
+    display: flex;
+    gap: 39px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 17px;
+    padding-top: 20px;
+    margin-left: -40px;
+}
+}
+
+  @media only screen and (max-width: 572px) {
+    .blog-content {
+      display: none;
+    }
+
+    div.blog-author {
+      display: none;
+    }
+
+    .blog-card-bottom-image {
+      display: none;
+    }
+  }
